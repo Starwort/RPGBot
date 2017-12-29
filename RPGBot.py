@@ -29,7 +29,7 @@ prototypePlayer = {
     "money": 0,
     "inventory": []
 }
-owner2 = "232948417087668235"
+owner2 = "[your id here]"
 playerSave = open("players.sav","r")
 players = ast.literal_eval(playerSave.read())
 playerSave.close()
